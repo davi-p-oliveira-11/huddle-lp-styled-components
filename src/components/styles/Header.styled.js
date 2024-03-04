@@ -15,3 +15,9 @@ export const Nav = styled.nav`
     flex-direction: column;
   }
 `
+
+export const Logo = styled.img`
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    margin-bottom: 40px;
+  }
+`
