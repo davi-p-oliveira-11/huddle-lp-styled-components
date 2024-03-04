@@ -1,9 +1,9 @@
 function App() {
   
   return (
-    <div> 
+    <Container>
       <h1>Hello Mars</h1>
-    </div>
+    </Container>
   )
 }
 
