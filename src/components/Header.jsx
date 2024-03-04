@@ -1,9 +1,12 @@
 import { StyledHeader } from "./styles/Header.styled"
+import { Container } from "./styles/Container.styled"
 
 const Header = () => {
   return (
     <StyledHeader> 
-      <h1>Huddle</h1>
+      <Container>
+       <h1>Huddle</h1>
+      </Container>
     </StyledHeader>
   )
 }
