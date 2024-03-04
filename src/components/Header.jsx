@@ -1,6 +1,10 @@
+import { StyledHeader } from "./styles/Header.styled"
+
 const Header = () => {
   return (
-    <div>Header</div>
+    <StyledHeader bg="red"> 
+      <h1>Huddle</h1>
+    </StyledHeader>
   )
 }
 
