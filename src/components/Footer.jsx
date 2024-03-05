@@ -1,9 +1,12 @@
+import  SocialIcons  from  "./SocialIcons"
 import { Container } from "./styles/Container.styled"
 import { Flex } from "./styles/Flex.styled"
+import { StyledFooter } from "./styles/Footer.styled"
 
 const Footer = () => {
   return (
     <div>
+      <StyledFooter>
       <Container >
         <img src="../src/images/logo_white.svg" alt="" />
 
@@ -33,6 +36,7 @@ const Footer = () => {
 
         <p>&copy; 2024 Huddle. All Rights Reserved</p>
       </Container>
+      </StyledFooter>
     </div>
   )
 }
